@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex md:justify-between md:items-center">
           <div className="flex justify-center md:justify-start mb-8 md:mb-0">
-            <span className="text-indigo-400 font-semibold text-xl">Harmony Homes</span>
+            <span className="text-indigo-400 font-semibold text-xl">ICrave Creations</span>
           </div>
           <div className="text-center md:text-right">
             <p className="text-gray-400 mb-2">123 Koregaon Park, Pune, India</p>

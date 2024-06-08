@@ -1,3 +1,5 @@
+import HeroImg from '../assets/hero.jpg';
+
 const HeroSection = () => {
   return (
     <div className="bg-gray-100">
@@ -31,7 +33,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://source.unsplash.com/featured/?interior-design" alt="Interior design" />
+          <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={HeroImg} alt="Interior design" />
         </div>
       </div>
     </div>
